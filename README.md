@@ -92,7 +92,7 @@ The wireframes can be found [here]().
 
 ### Testing 
 
-The project testing details can be found [here]().
+The project testing details can be found [here](https://github.com/KrisK1978/GuitarBarn/blob/master/TESTING.md).
 
 [Back to top](#table-of-contents)
 
