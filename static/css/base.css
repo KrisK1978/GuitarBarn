@@ -73,6 +73,10 @@ body {
 	z-index: -1;
 }
 
+.dropdown-item {
+    font-size: 1.5rem;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
