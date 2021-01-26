@@ -1,45 +1,118 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Table of Contents
 
-Welcome KrisK1978,
+[User Experience](#user-experience)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+- [User Goals](#user-goals)
 
-## Gitpod Reminders
+- [User Stories](#user-stories)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- [Designer Strategy](#designer-strategy)
 
-`python3 -m http.server`
+- [Design Elements](#design-elements)
 
-A blue button should appear to click: *Make Public*,
+- [Wireframes](#wireframes)
 
-Another blue button should appear to click: *Open Browser*.
+- [Features](#features)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    - [Features to be implemented in the future](#features-to-be-implemented-in-the-future)
 
-A blue button should appear to click: *Make Public*,
+- [Technologies used](#technologies-used)
 
-Another blue button should appear to click: *Open Browser*.
+    - [Other tools used to build the project](#other-tools-used-to-build-the-project)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- [Project database structure](#project-database-structure)
 
-## Updates Since The Instructional Video
+- [Project deployment](#project-deployment)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    - [Local deployment](#project-deployment)
+    - [Heroku deployment](#heroku-deployment)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- [Testing](#testing) 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- [Credits](#credits)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    - [Contents](#contents)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    - [Media](#media)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    - [Inspiration and motivation](#inspiration-and-motivation)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    - [Acknowledgements](#acknowledgements)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- [Disclaimer](#disclaimer)
 
---------
 
-Happy coding!
+
+## User Experience
+
+### User Goals
+
+### User Stories 
+
+[Back to top](#table-of-contents)
+
+### Designer Strategy
+
+### Design Elements
+
+[Back to top](#table-of-contents)
+
+### Wireframes
+
+[Back to top](#table-of-contents)
+
+### Features
+
+#### Features to be implemented in the future
+
+[Back to top](#table-of-contents)
+
+### Technologies used
+
+[Back to top](#table-of-contents)
+
+#### Other tools used to build the project
+
+[Back to top](#table-of-contents)
+
+### Project database structure
+
+[Back to top](#table-of-contents)
+
+### Project deployment
+
+#### Local deployment
+
+[Back to top](#table-of-contents)
+
+#### Heroku deployment
+
+[Back to top](#table-of-contents)
+
+### Testing 
+
+The project testing details can be found [here]().
+
+[Back to top](#table-of-contents)
+
+### Credits
+
+[Back to top](#table-of-contents)
+
+#### Contents
+
+#### Media
+
+#### Inspiration and motivation
+
+[Back to top](#table-of-contents)
+
+#### Acknowledgements
+
+[Back to top](#table-of-contents)
+
+### Disclaimer
+
+Please note this web app was created for educational purposes only. 
+
+[Back to top](#table-of-contents)
