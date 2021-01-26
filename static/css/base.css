@@ -79,10 +79,15 @@ body {
     font-size: 1.5rem;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
+/* Media  queries */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
 }
 
 @media (min-width: 992px) {
@@ -97,4 +102,10 @@ body {
     .header-container {
         padding-top: 164px;
     }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
 }
