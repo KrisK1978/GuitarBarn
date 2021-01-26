@@ -1,6 +1,31 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% clock page_header %}
+
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+
+{% endblock %}
+
 {% block content %}
-    <h4 class="display-4 text-success">It works!</h4>
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-7 col-md-6 my-auto">
+                <h1 class="display-4 logo-font text-black">
+                    Check Our New Collection....
+                </h1>
+                <!-- Shop Now Button -->
+                <div class="my-5">
+                    <h4 class="">
+                        <a href="" claa="shop-now-button btn btn-lg
+                        rounded-0 text-uppercase py-1">Buy Now!</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
