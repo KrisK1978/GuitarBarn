@@ -1,0 +1,94 @@
+/* Import fonts style */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+/* HTML style */
+html {
+    height: 100%;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* Body style */
+body {
+    background: url('/media/images/guitarbarn_background.jpg') no-repeat center center fixed;;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.7rem;
+}
+
+/* Style imported from Bulma to maintain consistency */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.shop-now-button {
+    background: white;
+    color: black;
+    min-width: 20rem;
+}
+
+.btn-white {
+    background: white;
+    color: black;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: black;
+    color: white;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+.bg-black {
+    background: #000 !important;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
