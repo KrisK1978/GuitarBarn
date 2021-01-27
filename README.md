@@ -74,6 +74,10 @@ The wireframes can be found [here]().
 
 #### Other tools used to build the project
 
+- [JSON Formatter](https://jsonformatter.curiousconcept.com/#)
+
+- [Free Logo Design](https://www.freelogodesign.org/)
+
 [Back to top](#table-of-contents)
 
 ### Project database structure
