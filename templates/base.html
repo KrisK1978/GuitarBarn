@@ -12,6 +12,14 @@
     {% block extra_meta %}
     {% endblock %}
 
+    <!-- Favicons -->
+    {% block favicon %}
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-icon-180x180.png' %}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{% static 'favicon/android-icon-48x48.png' %">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-16x16.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-32x32.png' %}">
+    {% endblock %}
+
     <!-- CSS -->
     {% block corecss %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -80,9 +88,9 @@
                 </ul>
             </div>
             <!-- Logo -->
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-center">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>GuitarBarn</strong></h2>
+                    <img src="{% static 'logo/logo.png' %}" alt="logo" class="img-responsive" height="80">
                 </a>
             </div>
             <!-- Search item -->
@@ -100,7 +108,6 @@
                     </div>
                 </form>
             </div>
-            
         </div>
         <!-- Main navigation -->
         <div class="row bg-white">
