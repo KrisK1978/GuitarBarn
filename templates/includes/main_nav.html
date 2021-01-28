@@ -8,9 +8,9 @@
             </a>
             <!-- All guitars available in store -->
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Guitars</a>
             </div>
         </li>
@@ -57,9 +57,8 @@
             </a>
             <!-- Offers -->
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">New stock</a>
-                <a href="" class="dropdown-item ">Clearence</a>
-                <a href="" class="dropdown-item">All Guitars</a>
+                <a href="{% url 'products' %}?category=new_stock" class="dropdown-item">New stock</a>
+                <a href="{% url 'products' %}?category=clearence" class="dropdown-item ">Clearence</a>
             </div>
         </li>
     </ul>
