@@ -3,416 +3,416 @@
       "pk":1,
       "model":"products.product",
       "fields":{
-         "sku":"pp5001",
+         "sku":"g10001",
          "name":"Epiphone Cherry Sunburst",
          "description":"This beauty blends solid woods, vintage appointments and a Fishman Sonicore under-saddle pickup and Sonitone preamp. Outfitted with gold Epiphone Deluxe tuners, top and back multi-ply binding, Kalamazoo style headstock, and a bone nut and saddle.",
          "price":750,
          "category":4,
          "rating":4.8,
-         "image":"images/epiphone_cherry.jpg"
+         "image":"images/guitars/epiphone_cherry.jpg"
       }
    },
    {
       "pk":2,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002",
+         "sku":"g10002",
          "name":"Cort Artisan A5 Plus SCMS",
          "description":"The A5 Plus SCMS is Cort’s bold foray into innovative modern bass concepts such as a single-cutaway for enhanced body-neck balance and multi-scale for a longer scale length on the bass strings. It's a state-of-the-art bass.",
          "price":979.00,
          "category":2,
          "rating":4.6,
-         "image":"images/cort_artisan.jpg"
+         "image":"images/guitars/cort_artisan.jpg"
       }
    },
    {
       "pk":3,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003",
+         "sku":"g10003",
          "name":"Dingwall D-Roc 4 Pau",
          "description":"A high quality, affordable Multi-Scale instrument from the kings of Multi Scale. Powerful, versatile electronics make this bass fit any style. Lightweight body, comfortable neck and perfect body-to-neck balance makes long sessions a breeze.",
          "price":1349.00,
          "category":1,
          "rating":4.3,
-         "image":"images/dingwall_pau.jpg"
+         "image":"images/guitars/dingwall_pau.jpg"
       }
    },
    {
       "pk":4,
       "model":"products.product",
       "fields":{
-         "sku":"pp5004",
+         "sku":"g10004",
          "name":"Fender Player Tele Butterscotch Blonde MN",
          "description":"Fender's brand new Player Series boasts improved specs, a fantastic new array of colours, and all the attitude that goes with the name. Master volume with 6 Saddle String Through Body Tele with Block Steel Saddles.",
          "price":569.00,
          "category":5,
          "rating":4.9,
-         "image":"images/fender_blonde.jpg"
+         "image":"images/guitars/fender_blonde.jpg"
       }
    },
    {
       "pk":5,
       "model":"products.product",
       "fields":{
-         "sku":"pp5005",
+         "sku":"g10005",
          "name":"Dingwall D-Roc 4 Ferro",
          "description":"Dingwall's stunning FD-3N pickups are custom designed, with a high output for maximum versatility with the punch for a smooth and aggressive tone when needed. Combined with the active EMG 3-Band EQ, as well as an active/passive bypass for a more laid back sound.",
          "price":1429.00,
          "category":8,
          "rating":4.3,
-         "image":"images/dingwall_ferro.jpg"
+         "image":"images/guitars/dingwall_ferro.jpg"
       }
    },
    {
       "pk":6,
       "model":"products.product",
       "fields":{
-         "sku":"pp5006",
+         "sku":"g10006",
          "name":"Cort Action Deluxe Plus",
          "description":"Affordable but loaded with quality materials, components and craftsmanship, the Action Series basses define value for the aspiring bass player with versatile features as PJ, JJ and soapbar pickup options and active EQ electronics.",
          "price":299.00,
          "category":2,
          "rating":4.9,
-         "image":"images/cort_deluxe.jpg"
+         "image":"images/guitars/cort_deluxe.jpg"
       }
    },
    {
       "pk":7,
       "model":"products.product",
       "fields":{
-         "sku":"pp5007",
+         "sku":"g10007",
          "name":"Epiphone Aged Vintage",
          "description":"This Epiphone was inspired by Gibson J-45 Cutaway that gives players improved access to the upper frets while retaining all of the features that make the J-45 special to begin with, including the Sloped Shoulder body with a solid Sitka spruce top and solid mahogany back.",
          "price":699.00,
          "category":1,
          "rating":4.9,
-         "image":"images/epiphone_aged.jpg"
+         "image":"images/guitars/epiphone_aged.jpg"
       }
    },
    {
       "pk":8,
       "model":"products.product",
       "fields":{
-         "sku":"pp5008",
+         "sku":"g10008",
          "name":"Epiphone Dove Pro Violinburst",
          "description":"The Dove Pro is one of the classic acoustic models brought to you by Epiphone. One instantly recognisable feature of this model is the pickguard. The Dove design is elegant and adds an extra element of class to an already beautiful guitar. ",
          "price":329.00,
          "category":4,
          "rating":5.0,
-         "image":"images/epiphone_dove.jpg"
+         "image":"images/guitars/epiphone_dove.jpg"
       }
    },
    {
       "pk":9,
       "model":"products.product",
       "fields":{
-         "sku":"pp5009",
+         "sku":"g10009",
          "name":"Fender American Professional II Telecaster Mercury RW",
          "description":"Finely crafted for superior comfort with top quality components that are made to go the distance. V-Mod II pickups provide the very best of modern tone and allow this traditional design to stay as relevant as ever.",
          "price":1599.00,
          "category":5,
          "rating": 4.2,
-         "image":"images/fender_mercury.jpg"
+         "image":"images/guitars/fender_mercury.jpg"
       }
    },
    {
       "pk":10,
       "model":"products.product",
       "fields":{
-         "sku":"pp5010",
+         "sku":"g10010",
          "name":"Cort Action Junior Open",
          "description":"The simple volume and tone electronics layout with a soapbar pickup in the bridge position allows the player to focus on playing the music instead of being distracted by too many sound choices.",
          "price":179.00,
          "category":2,
          "rating":3.9,
-         "image":"images/cort_junior.jpg"
+         "image":"images/guitars/cort_junior.jpg"
       }
    },
    {
       "pk":11,
       "model":"products.product",
       "fields":{
-         "sku":"pp5011",
+         "sku":"g10011",
          "name":"Fender Jimmy Page Tele Natural RW",
          "description":"The Jimmy Page Telecaster features a two-piece ash body stripped and hand-painted with Page’s original design. This iconic guitar is recreated faithfully here with an Ash body, a D-profile neck with a 7.25” Rosewood slab fingerboard.",
          "price":1309.00,
          "category":1,
          "rating":4.9,
-         "image":"images/fender_jp.jpg"
+         "image":"images/guitars/fender_jp.jpg"
       }
    },
    {
       "pk":12,
       "model":"products.product",
       "fields":{
-         "sku":"pp5012",
+         "sku":"g10012",
          "name":"Fender Player Strat Buttercream MN",
          "description":"2 Point Synchronised Tremolo with bent steel addles. A neck that everyone can enjoy playing on: it’s not too retro and not too modern. It has a modern C carve with a 9.5” radius fingerboard and medium jumbo frets.",
          "price":599.00,
          "category":8,
          "rating":4.9,
-         "image":"images/fender_buttercream.jpg"
+         "image":"images/guitars/fender_buttercream.jpg"
       }
    },
    {
       "pk":13,
       "model":"products.product",
       "fields":{
-         "sku":"pp5013",
+         "sku":"g10013",
          "name":"Fender Player Tele 3-Color Sunburst MN",
          "description":"Fender’s iconic Telecaster remains as evergreen and vital as ever here in the Player series. Pickups are central to the tone of all guitars and these hotter-than-vintage alnico single coils sound fantastic under a variety of genre tests.",
          "price":569.00,
          "category":5,
          "rating":4.7,
-         "image":"images/fender_sunburst.jpg"
+         "image":"images/guitars/fender_sunburst.jpg"
       }
    },
    {
       "pk":14,
       "model":"products.product",
       "fields":{
-         "sku":"pp5014",
+         "sku":"g10014",
          "name":"Cort Action Plus Blue Metallic",
          "description":"Affordable but loaded with quality materials, components and craftsmanship, the Action Series basses define value for the aspiring bass player with versatile features as PJ, JJ and soapbar pickup options and active EQ electronics.",
          "price":235.00,
          "category":2,
          "rating":4.6,
-         "image":"cort_metallic.jpg"
+         "image":"images/guitars/cort_metallic.jpg"
       }
    },
    {
       "pk":15,
       "model":"products.product",
       "fields":{
-         "sku":"pp5015",
+         "sku":"g10015",
          "name":"Gibson SG Modern Blueberry Fade",
          "description":"A bold yet tasteful rethink on the SG, this model could have been a risky move but we think Gibson have nailed it. The Ebony fretboard itself is also a new feature for this model, bringing with it an extra two frets for even more room to manoeuvre while you're soloing.",
          "price":1649.00,
          "category":1,
          "rating":4.6,
-         "image":"images/gibson_blueberry.jpg"
+         "image":"images/guitars/gibson_blueberry.jpg"
       }
    },
    {
       "pk":16,
       "model":"products.product",
       "fields":{
-         "sku":"pp5016",
+         "sku":"g10016",
          "name":"Epiphone EJ200SCE Black Fishman",
          "description":"A classic looking model at an affordable price.Extremely versatile due to the onboard pickup system with a great quality components and construction. The top is solid spruce, giving a bright and full tone.",
          "price":439.00,
          "category":4,
          "rating":4.3,
-         "image":"images/epiphone_fishman.jpg"
+         "image":"images/guitars/epiphone_fishman.jpg"
       }
    },
    {
       "pk":17,
       "model":"products.product",
       "fields":{
-         "sku":"pp5017",
+         "sku":"g10017",
          "name":"Fender Player Tele Tidepool MN",
          "description":"Player Series Alnico 5 Tele single coil set. Master Volume and master tone with a 3 position Blade. 6 Saddle string through Body Tele with Block Steel Saddles.",
          "price":599.00,
          "category":5,
          "rating":4.4,
-         "image":"images/fender_tidepool.jpg"
+         "image":"images/guitars/fender_tidepool.jpg"
       }
    },
    {
       "pk":18,
       "model":"products.product",
       "fields":{
-         "sku":"pp5018",
+         "sku":"g10018",
          "name":"Gibson SG Standard 61 Sideways Vibrola",
          "description":"This model is based on the historic SG from 1961. Noted for having a smaller pickguard and also a slimmer, narrower neck, this guitar is set up to be comfortable to play whilst still offering everything you'd expect from an SG.",
          "price":1799.00,
          "category":8,
          "rating":5.0,
-         "image":"images/gibson_vibrola.jpg"
+         "image":"images/guitars/gibson_vibrola.jpg"
       }
    },
    {
       "pk":19,
       "model":"products.product",
       "fields":{
-         "sku":"pp5019",
+         "sku":"g10019",
          "name":"Ibanez AEG50L-BKH Black High Gloss",
          "description":"The AEG50 boasts the easy playability the AEG series is known for, and features a slim, compact body that's comfortable to play in any position, seated or standing, while the slim neck feels great in the hand.",
          "price":299.00,
          "category":7,
          "rating":4.4,
-         "image":"images/ibanez_aeg.jpg"
+         "image":"images/guitars/ibanez_aeg.jpg"
       }
    },
    {
       "pk":20,
       "model":"products.product",
       "fields":{
-         "sku":"pp5020",
+         "sku":"g10020",
          "name":"Gibson Les Paul Standard 50s Heritage Cherry",
          "description":"Gibson's 'Slim Taper' neck profile, the 'Vintage '50s' neck feels great in your hands and is fantastic for both rhythm and lead playing. The mahogany body has zero weight relief giving you the 'full fat' Les Paul tone so many desire.",
          "price":2199.00,
          "category":6,
          "rating":5.0,
-         "image":"images/gibson_cherry.jpg"
+         "image":"images/guitars/gibson_cherry.jpg"
       }
    },
    {
       "pk":21,
       "model":"products.product",
       "fields":{
-         "sku":"pp5021",
+         "sku":"g10021",
          "name":"Dingwall NG3 5 String Metalflake Aquamarine",
          "description":"Based on the Combustion model, the alder body, maple neck and fretboard NG3 takes things in an exciting new direction with the addition of the custom Darkglass Tone Capsule pre-amp and sweetspot pickup placement.",
          "price":2399.00,
          "category":3,
          "rating":4.9,
-         "image":"images/dingwall_aquamarine.jpg"
+         "image":"images/guitars/dingwall_aquamarine.jpg"
       }
    },
    {
       "pk":22,
       "model":"products.product",
       "fields":{
-         "sku":"pp5022",
+         "sku":"g10022",
          "name":"Gibson Les Paul Classic Ebony",
          "description":"A classic, this guitar has the usual Les Paul specs, mahogany neck and body, Tune-O-Matic bridge, 22 frets, but what differentiates this model is its set of Push/Pull switches in the volume and tone controls.",
          "price":1799.00,
          "category":6,
          "rating":5.0,
-         "image":"images/gibson_ebony.jpg"
+         "image":"images/guitars/gibson_ebony.jpg"
       }
    },
    {
       "pk":23,
       "model":"products.product",
       "fields":{
-         "sku":"pp5023",
+         "sku":"g10023",
          "name":"Ibanez AEG70 Trans Charcoal",
          "description":"High quality Ibanez under-saddle pickups and Ibanez preamps with onboard tuners provide sparkling tones that sound great in any environment. Intuitive electronics which create a great quality.",
          "price":319.00,
          "category":8,
          "rating":4.3,
-         "image":"images/ibanez_trans.jpg"
+         "image":"images/guitars/ibanez_trans.jpg"
       }
    },
    {
       "pk":24,
       "model":"products.product",
       "fields":{
-         "sku":"pp5024",
+         "sku":"g10024",
          "name":"Epiphone AJ-220SCE Vintage",
          "description":"A great acoustic guitar with the AJ-220SCE. The top of the body is made of solid Spruce which is a very popular choice in guitar building due to its top end sparkle and strong note projection.",
          "price":279.00,
          "category":4,
          "rating":4.7,
-         "image":"images/epiphone_vintage.jpg"
+         "image":"images/guitars/epiphone_vintage.jpg"
       }
    },
    {
       "pk":25,
       "model":"products.product",
       "fields":{
-         "sku":"pp5025",
+         "sku":"g10025",
          "name":"Ibanez AEG50-IBH Indigo Blue",
          "description":"This guitar combines easy playability, classic solid and sunburst finishes and mahogany bodies with spruce tops to create a quality, workhorse acoustic guitar that will rise to any occasion. High quality Fishman® Sonicore pickups and Ibanez preamps.",
          "price":269.00,
          "category":7,
          "rating":5.0,
-         "image":"images/ibanez_indigo.jpg"
+         "image":"images/guitars/ibanez_indigo.jpg"
       }
    },
    {
       "pk":26,
       "model":"products.product",
       "fields":{
-         "sku":"pp5026",
+         "sku":"g10026",
          "name":"Dingwall NG2 5 Matte Gold",
          "description":"Maple neck and fretboard NG2 takes things in an exciting new direction with the addition of the custom Darkglass Tone Capsule pre-amp, carbon fiber print pickguard and racing/tuner inspired finishes.",
          "price":1999.00,
          "category":3,
          "rating":5.0,
-         "image":"images/dingwall_gold.jpg"
+         "image":"images/guitars/dingwall_gold.jpg"
       }
    },
    {
       "pk":27,
       "model":"products.product",
       "fields":{
-         "sku":"pp5027",
+         "sku":"g10027",
          "name":"Gibson Les Paul Studio Smokehouse Burst",
          "description":"Weight relief chambers make this model much easier on the shoulder. The neck profile of a guitar is greatly important to how it feels when playing. The Slim Taper shape on this model offers comfort for the player and gives access to the higher frets allowing you to reach all the way to the top of the fretboard.",
          "price":1349.00,
          "category":6,
          "rating":5.0,
-         "image":"images/gibson_smokehouse.jpg"
+         "image":"images/guitars/gibson_smokehouse.jpg"
       }
    },
    {
       "pk":28,
       "model":"products.product",
       "fields":{
-         "sku":"pp5028",
+         "sku":"g10028",
          "name":"Dingwall NG3 5 String Purple Maple",
          "description":"The multi scale construction ensures maximum tonal and tuning accuracy right across the fretboard, while the powerful electronics and stunning build make it a dream to play for any style. Lightweight body and a perfect weight-balance.",
          "price":1949.00,
          "category":3,
          "rating":4.1,
-         "image":"images/dingwall_maple.jpg"
+         "image":"images/guitars/dingwall_maple.jpg"
       }
    },
    {
       "pk":29,
       "model":"products.product",
       "fields":{
-         "sku":"pp5029",
+         "sku":"g10029",
          "name":"Ibanez Talman TCY12E-OPN Open Pore",
          "description":"An eye catching body shape, the Ibanez Talman is one for the guitarist who is looking for something a little different! Talmans are great for those in need of a compact, portable acoustic that plays as easily as an electric guitar.",
          "price":199.00,
          "category":7,
          "rating":4.9,
-         "image":"images/ibanez_talman.jpg"
+         "image":"images/guitars/ibanez_talman.jpg"
       }
    },
    {
       "pk":30,
       "model":"products.product",
       "fields":{
-         "sku":"pp5030",
+         "sku":"g10030",
          "name":"Dingwall NG 3 5 String Laguna Seca Blue",
          "description":"Dingwall's NG-3 bass is designed in conjunction with producer, low end master and former Periphery bassist Adam 'Nolly' Getgood. The NG-3 takes the existing Combustion model and adds a few choice features like a carbon-fibre print pickguard.",
          "price":2199.00,
          "category":3,
          "rating":4.3,
-         "image":"images/dingwall_laguna.jpg"
+         "image":"images/guitars/dingwall_laguna.jpg"
       }
    },
    {
       "pk":31,
       "model":"products.product",
       "fields":{
-         "sku":"pp5031",
+         "sku":"g10031",
          "name":"Ibanez V50NJP Acoustic Jampack Vintage",
          "description":"Whether you're a beginner or the parent of a beginner, Jam Packs gives you the bundle that will get the newbie rockin,' all rolled into one pack–guitar. Dreadnought guitar with a clip-on electronic tuner.",
          "price":160.00,
          "category":7,
          "rating":4.9,
-         "image":"images/ibanez_vintage.jpg"
+         "image":"images/guitars/ibanez_vintage.jpg"
       }
    },
    {
       "pk":32,
       "model":"products.product",
       "fields":{
-         "sku":"pp5032",
+         "sku":"g10032",
          "name":"Gibson Les Paul Satin Tobacco Burst",
          "description":"Sounding pretty hot, the 490R and 490T pickups are often found on Les Paul Customs. They sound large, powerful and full of energy! You have the option to use the push/pull coil taps found in the volume knobs to achieve more of a P-90 sound.",
          "price":1099.00,
          "category":6,
          "rating":4.8,
-         "image":"images/gibson_tobacco.jpg"
+         "image":"images/guitars/gibson_tobacco.jpg"
       }
    }
 ]
