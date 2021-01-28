@@ -3,448 +3,416 @@
       "pk":1,
       "model":"products.product",
       "fields":{
-         "sku":"pp5001340155",
-         "name":"Arizona Original Bootcut Jeans",
-         "description":"Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
-         "price":53.99,
-         "category":6,
-         "rating":4.6,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0709201205510679M.jpg"
+         "sku":"pp5001",
+         "name":"Epiphone Cherry Sunburst",
+         "description":"This beauty blends solid woods, vintage appointments and a Fishman Sonicore under-saddle pickup and Sonitone preamp. Outfitted with gold Epiphone Deluxe tuners, top and back multi-ply binding, Kalamazoo style headstock, and a bone nut and saddle.",
+         "price":750,
+         "category":4,
+         "rating":4.8,
+         "image":"epiphone_cherry.jpg"
       }
    },
    {
       "pk":2,
       "model":"products.product",
       "fields":{
-         "sku":"pp5001600425",
-         "name":"Liz Claiborne Audra Classic Fit Straight Leg Pants",
-         "description":"Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
-         "price":58.99,
-         "category":4,
+         "sku":"pp5002",
+         "name":"Cort Artisan A5 Plus SCMS",
+         "description":"The A5 Plus SCMS is Cort’s bold foray into innovative modern bass concepts such as a single-cutaway for enhanced body-neck balance and multi-scale for a longer scale length on the bass strings. It's a state-of-the-art bass.",
+         "price":979.00,
+         "category":2,
          "rating":4.6,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0113201617034987M.jpg"
+         "image":"cort_artisan.jpg"
       }
    },
    {
       "pk":3,
       "model":"products.product",
       "fields":{
-         "sku":"pp5001730010",
-         "name":"Royal Velvet Matte Satin Square 3-pc. Coverlet Set",
-         "description":"Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"",
-         "price":205.99,
-         "category":2,
-         "rating":4.7,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP1230201417013175M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP1230201417013175M.jpg"
+         "sku":"pp5003",
+         "name":"Dingwall D-Roc 4 Pau",
+         "description":"A high quality, affordable Multi-Scale instrument from the kings of Multi Scale. Powerful, versatile electronics make this bass fit any style. Lightweight body, comfortable neck and perfect body-to-neck balance makes long sessions a breeze.",
+         "price":1349.00,
+         "category":1,
+         "rating":4.3,
+         "image":"dingwall_pau.jpg"
       }
    },
    {
       "pk":4,
       "model":"products.product",
       "fields":{
-         "sku":"pp5001890157",
-         "name":"Gibson Infinite Glaze 16-pc. Dinnerware Set",
-         "description":"An exhibition in contrast, this dinnerware sets simple, clean design is perfect for both everyday use and special occasions. durable stoneware construction microwave and oven safe service for 4 16-piece set includes: four 10\" dinner plates four 7\" dessert plates four 6\" bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.",
-         "price":169.99,
-         "category":7,
-         "rating":3.0,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0716201503423610M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0716201503423610M.jpg"
+         "sku":"pp5004",
+         "name":"Fender Player Tele Butterscotch Blonde MN",
+         "description":"Fender's brand new Player Series boasts improved specs, a fantastic new array of colours, and all the attitude that goes with the name. Master volume with 6 Saddle String Through Body Tele with Block Steel Saddles.",
+         "price":569.00,
+         "category":5,
+         "rating":4.9,
+         "image":"fender_blonde.jpg"
       }
    },
    {
       "pk":5,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002111605",
-         "name":"Simply Calphalon Enameled Cast Iron Panini Pan",
-         "description":"Durable enameled cast iron construction allows the panini pan to heat evenly, so you can whip up a meal with ease and complete confidence.  cooks with little to no oils or fats so every recipe is healthier nonstick interior for quick and easy clean-ups stainless steel knob on cover enameled cast iron heats evenly and consistently stove, broiler and oven safe Cast iron/stainless steel. Dishwasher safe. Imported. ",
-         "price":232.99,
-         "category":7,
-         "rating":5.0,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP1115201210371197C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP1115201210371197C.jpg"
+         "sku":"pp5005",
+         "name":"Dingwall D-Roc 4 Ferro",
+         "description":"Dingwall's stunning FD-3N pickups are custom designed, with a high output for maximum versatility with the punch for a smooth and aggressive tone when needed. Combined with the active EMG 3-Band EQ, as well as an active/passive bypass for a more laid back sound.",
+         "price":1429.00,
+         "category":8,
+         "rating":4.3,
+         "image":"dingwall_ferro.jpg"
       }
    },
    {
       "pk":6,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002260206",
-         "name":"The Foundry Supply Co. Solid Pocket TeeBig & Tall",
-         "description":"Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
-         "price":30.99,
-         "category":9,
-         "rating":4.7,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0624201520422666C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0624201520422666C.jpg"
+         "sku":"pp5006",
+         "name":"Cort Action Deluxe Plus",
+         "description":"Affordable but loaded with quality materials, components and craftsmanship, the Action Series basses define value for the aspiring bass player with versatile features as PJ, JJ and soapbar pickup options and active EQ electronics.",
+         "price":299.00,
+         "category":2,
+         "rating":4.9,
+         "image":"cort_deluxe.jpg"
       }
    },
    {
       "pk":7,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002440521",
-         "name":"Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus",
-         "description":"Walk a little taller in our slimming straight-leg pants. flat front slim fit straight leg front fly with nylon zipper, hook and bar closure 32\" inseam polyester/rayon/spandex washable imported ",
-         "price":59.0,
-         "category":4,
-         "rating":4.4,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0226201317034754M.jpg"
+         "sku":"pp5007",
+         "name":"Epiphone Aged Vintage",
+         "description":"This Epiphone was inspired by Gibson J-45 Cutaway that gives players improved access to the upper frets while retaining all of the features that make the J-45 special to begin with, including the Sloped Shoulder body with a solid Sitka spruce top and solid mahogany back.",
+         "price":699.00,
+         "category":1,
+         "rating":4.9,
+         "image":"epiphone_aged.jpg"
       }
    },
    {
       "pk":8,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002601115",
-         "name":"Rachael Ray Ceramic Olive Oil Dispenser",
-         "description":"This olive oil dispenser is designed for storing extra virgin olive oil, so it's close at hand for drizzling on food.  24-ounce capacity cruet opaque bottle and non-porous glazed interior keep oil in the dark to avoid oxidation and preserve taste playful, contemporary design Stoneware. Dishwasher-safe. Imported.",
-         "price":36.99,
-         "category":7,
-         "rating":4.5,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0926201317071162M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP0926201317071162M.jpg"
+         "sku":"pp5008",
+         "name":"Epiphone Dove Pro Violinburst",
+         "description":"The Dove Pro is one of the classic acoustic models brought to you by Epiphone. One instantly recognisable feature of this model is the pickguard. The Dove design is elegant and adds an extra element of class to an already beautiful guitar. ",
+         "price":329.00,
+         "category":4,
+         "rating":5.0,
+         "image":"epiphone_dove.jpg"
       }
    },
    {
       "pk":9,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002690715",
-         "name":"Protech Performance Sheet Set",
-         "description":"Protech sheets are like activewear for your bed! The same cutting edge technology that is used in today's sportswear is also used in these Protech Plus sheets to give you a better night's sleep. Breathable ultra-fine microfiber wicks away moisture, keeping your body cool throughout the night while a 4-way stretch component allows you comfort in movement. This stretching ability also helps while making the bed, fitting most premium size mattresses; you won't have to struggle to get the sheets to fit all the way around.  4-way stretch component allows you comfort in movement available in a variety of solid colors microfiber knit fits mattresses up to 19\" deep Set includes: fitted sheet flat sheet 2 pillowcases Polyester/spandex. Washable. Imported. Full: 54x75 Queen: 60x80 King: 78x80 Cal. King: 72x84",
-         "price":169.99,
-         "category":2,
-         "rating":4.7,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP1020201517025390M.jpg"
+         "sku":"pp5009",
+         "name":"Fender American Professional II Telecaster Mercury RW",
+         "description":"Finely crafted for superior comfort with top quality components that are made to go the distance. V-Mod II pickups provide the very best of modern tone and allow this traditional design to stay as relevant as ever.",
+         "price":1599.00,
+         "category":5,
+         "rating": 4.2,
+         "image":"fender_mercury.jpg"
       }
    },
    {
       "pk":10,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002701115",
-         "name":"Reflections Set of 4 Microfiber Napkins",
-         "description":"Complete the look of your table setting with these easy-care microfiber napkins.  great for everyday use or entertaining liquid-resistant design helps protect against spills set of 4 Polyester.Each measures 19x19\". Washable. Imported.",
-         "price":33.99,
-         "category":7,
-         "rating":4.4,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0418201317011949M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP0418201317011949M.jpg"
+         "sku":"pp5010",
+         "name":"Cort Action Junior Open",
+         "description":"The simple volume and tone electronics layout with a soapbar pickup in the bridge position allows the player to focus on playing the music instead of being distracted by too many sound choices.",
+         "price":179.00,
+         "category":2,
+         "rating":3.9,
+         "image":"cort_junior.jpg"
       }
    },
    {
       "pk":11,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002761055",
-         "name":"Chef Designs Black-Trimmed Cook ShirtBig & Tall",
-         "description":"Stylish black-trim cook shirt from Chef Designs is just what you need for a confident, professional presence in the kitchen.  contrasting black stand collar black front buttons left chest pocket short hemmed sleeves squared bottom hem polyester/cotton washable imported of domestic fabric more sizes: regular, big",
-         "price":29.99,
-         "category":9,
-         "rating":3.0,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/0900631B81B0C2D9M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"0900631B81B0C2D9M.jpg"
+         "sku":"pp5011",
+         "name":"Fender Jimmy Page Tele Natural RW",
+         "description":"The Jimmy Page Telecaster features a two-piece ash body stripped and hand-painted with Page’s original design. This iconic guitar is recreated faithfully here with an Ash body, a D-profile neck with a 7.25” Rosewood slab fingerboard.",
+         "price":1309.00,
+         "category":1,
+         "rating":4.9,
+         "image":"fender_jp.jpg"
       }
    },
    {
       "pk":12,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002820069",
-         "name":"Nike 3-pk. Performance Crew Socks - Boys",
-         "description":"Keep him moving in comfort all day with quality Nike crew socks.  arch support reinforced toe and heel cotton/polyester/spandex washable imported",
-         "price":19.99,
-         "category":1,
-         "rating":4.6,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0510201317010521M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP0510201317010521M.jpg"
+         "sku":"pp5012",
+         "name":"Fender Player Strat Buttercream MN",
+         "description":"2 Point Synchronised Tremolo with bent steel addles. A neck that everyone can enjoy playing on: it’s not too retro and not too modern. It has a modern C carve with a 9.5” radius fingerboard and medium jumbo frets.",
+         "price":599.00,
+         "category":8,
+         "rating":4.9,
+         "image":"fender_buttercream.jpg"
       }
    },
    {
       "pk":13,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002820147",
-         "name":"Champion Jersey Tee",
-         "description":"Compete, exercise or simply relax in comfort with a classic tee from Champion, the brand that's been making quality athletic apparel since 1919.  regular fit crewneck taped neck left chest logo embroidery cotton except oxford and granite heather are cotton/polyester washable imported",
-         "price":20.0,
-         "category":9,
-         "rating":3.2,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0430201405053680M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP0430201405053680M.jpg"
+         "sku":"pp5013",
+         "name":"Fender Player Tele 3-Color Sunburst MN",
+         "description":"Fender’s iconic Telecaster remains as evergreen and vital as ever here in the Player series. Pickups are central to the tone of all guitars and these hotter-than-vintage alnico single coils sound fantastic under a variety of genre tests.",
+         "price":569.00,
+         "category":5,
+         "rating":4.7,
+         "image":"fender_sunburst.jpg"
       }
    },
    {
       "pk":14,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002910572",
-         "name":"Stafford 4-pk. Blended Cotton A-Shirts",
-         "description":"Stafford Big & Tall ribbed athletic t-shirts deliver the tagless comfort and breathable performance he needs.  super soft, quick-drying, durable fabric preshrunk for lasting fit reinforced durable stitching tag free cotton/polyester washable imported ",
-         "price":26.99,
-         "category":5,
-         "rating":4.7,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/0900631B81C9387BM.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"0900631B81C9387BM.jpg"
+         "sku":"pp5014",
+         "name":"Cort Action Plus Blue Metallic",
+         "description":"Affordable but loaded with quality materials, components and craftsmanship, the Action Series basses define value for the aspiring bass player with versatile features as PJ, JJ and soapbar pickup options and active EQ electronics.",
+         "price":235.00,
+         "category":2,
+         "rating":4.6,
+         "image":"cort_metallic.jpg"
       }
    },
    {
       "pk":15,
       "model":"products.product",
       "fields":{
-         "sku":"pp5002990740",
-         "name":"Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall",
-         "description":"Soft and comfortable, two of his favorite things together in this heavyweight cotton tee from Stafford.  combed cotton heavier fabric for durability preshunk for lasting fit premium seaming reduces twisting tag free cotton washable imported",
-         "price":48.99,
-         "category":5,
-         "rating":4.8,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP1029201317111469M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP1029201317111469M.jpg"
+         "sku":"pp5015",
+         "name":"Gibson SG Modern Blueberry Fade",
+         "description":"A bold yet tasteful rethink on the SG, this model could have been a risky move but we think Gibson have nailed it. The Ebony fretboard itself is also a new feature for this model, bringing with it an extra two frets for even more room to manoeuvre while you're soloing.",
+         "price":1649.00,
+         "category":1,
+         "rating":4.6,
+         "image":"gibson_blueberry.jpg"
       }
    },
    {
       "pk":16,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003050248",
-         "name":"Levi's 529 Curvy Bootcut Jeans",
-         "description":"Levis 529 curvy bootcut jeans are flattering and perfect for any timeday or night.  sits below the waist slim fit through hip and thigh bootcut leg with 18\" opening smooth bottom 8\" front rise; 15\" back rise cotton/polyester/elastane washable imported misses average: 32\" inseam ",
-         "price":65.99,
-         "category":6,
-         "rating":4.4,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0918201520303373C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0918201520303373C.jpg"
+         "sku":"pp5016",
+         "name":"Epiphone EJ200SCE Black Fishman",
+         "description":"A classic looking model at an affordable price.Extremely versatile due to the onboard pickup system with a great quality components and construction. The top is solid spruce, giving a bright and full tone.",
+         "price":439.00,
+         "category":4,
+         "rating":4.3,
+         "image":"epiphone_fishman.jpg"
       }
    },
    {
       "pk":17,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003070787",
-         "name":"Worthington Essential Short-Sleeve Tee - Plus",
-         "description":"Our stretchy jersey knit tee's gently pleated neckline makes a simply sweet impression.  pleated u-neck short sleeves polyester/spandex washable imported ",
-         "price":33.99,
+         "sku":"pp5017",
+         "name":"Fender Player Tele Tidepool MN",
+         "description":"Player Series Alnico 5 Tele single coil set. Master Volume and master tone with a 3 position Blade. 6 Saddle string through Body Tele with Block Steel Saddles.",
+         "price":599.00,
          "category":5,
          "rating":4.4,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP1119201520340305C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP1119201520340305C.jpg"
+         "image":"fender_tidepool.jpg"
       }
    },
    {
       "pk":18,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003090182",
-         "name":"Marvel Comics Avengers Hulk Pillow Buddy",
-         "description":"The Hulk may be tough, but he's actually a real softy. Get to know his softer side with this fun Hulk-shaped pillow.  adds a playful layer of texture and comfort to bed's decor measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-         "price":59.99,
-         "category":2,
-         "rating":4.8,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP0807201317072274M.jpg"
+         "sku":"pp5018",
+         "name":"Gibson SG Standard 61 Sideways Vibrola",
+         "description":"This model is based on the historic SG from 1961. Noted for having a smaller pickguard and also a slimmer, narrower neck, this guitar is set up to be comfortable to play whilst still offering everything you'd expect from an SG.",
+         "price":1799.00,
+         "category":8,
+         "rating":5.0,
+         "image":"gibson_vibrola.jpg"
       }
    },
    {
       "pk":19,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003090186",
-         "name":"Marvel Spiderman Pillow Buddy",
-         "description":"Now your child can sling webs next to his favorite wall crawler with this Spider-Man pillow buddy. shaped like everyone's favorite web head measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-         "price":60.99,
-         "category":2,
-         "rating":5.0,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072924M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP0807201317072924M.jpg"
+         "sku":"pp5019",
+         "name":"Ibanez AEG50L-BKH Black High Gloss",
+         "description":"The AEG50 boasts the easy playability the AEG series is known for, and features a slim, compact body that's comfortable to play in any position, seated or standing, while the slim neck feels great in the hand.",
+         "price":299.00,
+         "category":7,
+         "rating":4.4,
+         "image":"ibanez_aeg.jpg"
       }
    },
    {
       "pk":20,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003161326",
-         "name":"JCPenney Home Oven Mitt",
-         "description":"Keep it cool in the kitchen with this lined oven mitt.  silicone grip protects hand from heat up to 350F contrast woven houndstooth trim fits comfortably on left or right hand handy hanging tie Sold individually. Cotton with cotton lining. Measures 7x13\". Washable. Imported. ",
-         "price":20.99,
-         "category":7,
-         "rating":4.7,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0821201317103183M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0821201317103183M.jpg"
+         "sku":"pp5020",
+         "name":"Gibson Les Paul Standard 50s Heritage Cherry",
+         "description":"Gibson's 'Slim Taper' neck profile, the 'Vintage '50s' neck feels great in your hands and is fantastic for both rhythm and lead playing. The mahogany body has zero weight relief giving you the 'full fat' Les Paul tone so many desire.",
+         "price":2199.00,
+         "category":6,
+         "rating":5.0,
+         "image":"gibson_cherry.jpg"
       }
    },
    {
       "pk":21,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003230723",
-         "name":"Farberware Sonoma 2-qt. Whistling Tea Kettle",
-         "description":"The classic, trusted quality of Farberware pairs nicely with this durable stainless steel teakettle. Gelatin, hot chocolate or a cup of soupthe uses for a teakettle don't stop at tea.  whistle feature signals when water is at a boil removable lid makes kettle easy to fill 2-qt. capacity Stainless steel. Dishwasher safe. Imported. ",
-         "price":60.99,
-         "category":7,
-         "rating":4.3,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/0900631B81D676AEM.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"0900631B81D676AEM.jpg"
+         "sku":"pp5021",
+         "name":"Dingwall NG3 5 String Metalflake Aquamarine",
+         "description":"Based on the Combustion model, the alder body, maple neck and fretboard NG3 takes things in an exciting new direction with the addition of the custom Darkglass Tone Capsule pre-amp and sweetspot pickup placement.",
+         "price":2399.00,
+         "category":3,
+         "rating":4.9,
+         "image":"dingwall_aquamarine.jpg"
       }
    },
    {
       "pk":22,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003270936",
-         "name":"Silver Superman Shield Cufflinks",
-         "description":"Superman shield cuff links are a work of art, and a subtle and stylish way to properly honor the man of steel.  one-piece fixed backing featuring the DC Comics logo  x \" rhodium plated metal/enamel imported",
-         "price":76.99,
-         "category":4,
+         "sku":"pp5022",
+         "name":"Gibson Les Paul Classic Ebony",
+         "description":"A classic, this guitar has the usual Les Paul specs, mahogany neck and body, Tune-O-Matic bridge, 22 frets, but what differentiates this model is its set of Push/Pull switches in the volume and tone controls.",
+         "price":1799.00,
+         "category":6,
          "rating":5.0,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0917201317033820M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP0917201317033820M.jpg"
+         "image":"gibson_ebony.jpg"
       }
    },
    {
       "pk":23,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003360384",
-         "name":"Dickies Heavyweight Long-Sleeve Pocket Tee",
-         "description":"When your workday calls for a heavyweight tee, grab this long-sleeve one from Dickies and enjoy industrial-strength comfort from the brand you trust.  chest pocket tagless back neck taped neck and shoulder seams cotton washable imported",
-         "price":29.99,
-         "category":9,
-         "rating":4.8,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0927201317061305M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0927201317061305M.jpg"
+         "sku":"pp5023",
+         "name":"Ibanez AEG70 Trans Charcoal",
+         "description":"High quality Ibanez under-saddle pickups and Ibanez preamps with onboard tuners provide sparkling tones that sound great in any environment. Intuitive electronics which create a great quality.",
+         "price":319.00,
+         "category":8,
+         "rating":4.3,
+         "image":"ibanez_trans.jpg"
       }
    },
    {
       "pk":24,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003440111",
-         "name":"Royal Velvet Down Chamber Pillow",
-         "description":"The Down Chamber pillow, with its unique pillow-in-pillow design, offers all-natural comfort. With an inner core of springy, high-loft feathers wrapped in an outer layer of silk, luxurious down, you'll receive supportive, lofty comfort. The gusset allows for additional neck support so you can sleep comfortably. inner chamber of springy, True Loft feathers provides superior all-natural comfort and support outer layer of silky, soft down adds lasting cushioning and comfort 550 fill power 300 thread-count cotton cover is hypoallergenic medium support for stomach or side sleepers hypoallergenic Cotton cover; duck feather and down fill. Washable. Manufacturer's 4-year limited warranty. Assembled in America from imported fabric. Standard/Queen pillow: 20x28\"; 32-ounce fill weight King pillow: 20x36\"; 39-ounce fill weight Be sure to care for your investment with a pillow protector. It's an added layer of protection that willhelpkeep your pillow clean and fresh. ",
-         "price":82.0,
-         "category":2,
-         "rating":3.8,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP1023201317051585M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP1023201317051585M.jpg"
+         "sku":"pp5024",
+         "name":"Epiphone AJ-220SCE Vintage",
+         "description":"A great acoustic guitar with the AJ-220SCE. The top of the body is made of solid Spruce which is a very popular choice in guitar building due to its top end sparkle and strong note projection.",
+         "price":279.00,
+         "category":4,
+         "rating":4.7,
+         "image":"epiphone_vintage.jpg"
       }
    },
    {
       "pk":25,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003540313",
-         "name":"Dickies Heavyweight Fleece Full Zip HoodieBig & Tall",
-         "description":"This soft fleece jacket is a heavyweight champ that works overtime to keep the chill away.  drawcord closure on hood kangaroo pocket rib-knit cuffs and waistband cotton/polyester washable imported",
-         "price":106.99,
-         "category":9,
-         "rating":3.0,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP1108201317050996M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP1108201317050996M.jpg"
+         "sku":"pp5025",
+         "name":"Ibanez AEG50-IBH Indigo Blue",
+         "description":"This guitar combines easy playability, classic solid and sunburst finishes and mahogany bodies with spruce tops to create a quality, workhorse acoustic guitar that will rise to any occasion. High quality Fishman® Sonicore pickups and Ibanez preamps.",
+         "price":269.00,
+         "category":7,
+         "rating":5.0,
+         "image":"ibanez_indigo.jpg"
       }
    },
    {
       "pk":26,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003560513",
-         "name":"JCPenney Home Ashley Scalloped Stoneware 50-pc. Dinnerware Set - Service for 8",
-         "description":"A glossy glaze and scalloped rim add a fun feel to this oversized dinnerware set that includes enough pieces to set the table for everyday dining or a special dinner party.  adds a layer of texture to your place setting generous size is perfect for small or large parties microwave safe service for 8 50-piece set includes: eight 10 dinner plates eight 7 salad plates eight 6 cereal bowls with 22-ounce capacity eight 4 fruit bowls with 8-ounce capacity eight 3 dip bowls with 3-ounce capacity eight 12-ounce mugs one 9 serving bowl with 60-ounce capacity one 8.75x12 serving platter Stoneware. Dishwasher safe. Imported.",
-         "price":241.99,
-         "category":7,
-         "rating":4.4,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0219201502115503C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0219201502115503C.jpg"
+         "sku":"pp5026",
+         "name":"Dingwall NG2 5 Matte Gold",
+         "description":"Maple neck and fretboard NG2 takes things in an exciting new direction with the addition of the custom Darkglass Tone Capsule pre-amp, carbon fiber print pickguard and racing/tuner inspired finishes.",
+         "price":1999.00,
+         "category":3,
+         "rating":5.0,
+         "image":"dingwall_gold.jpg"
       }
    },
    {
       "pk":27,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003560948",
-         "name":"Rachael Ray Porcelain II 10-pc. Cookware Set",
-         "description":"Youll really get cooking with this incredible, hard-enamel cookware set as it contains all the basic pieces to ensure youll get your use out of each and every pan.  heats quickly and evenly, reducing hot spots that can burn foods long-lasting, nonstick cooking surface allows food to release from the pan, making cleanup quick and easy sylish two-tone gradient exterior adds color and style to any kitchen handles are rubberized for comfort, dual-riveted for durability and oven safe to 350F 10-piece set includes: 1-quart saucepan with lid 2-quart saucepad with lid 3-quart saut pan with lid 6-quart stock pot with lid 8\" skillet 10\" skillet Aluminum/porcelain/silicone. Hand wash. Imported.   ",
-         "price":338.99,
-         "category":7,
+         "sku":"pp5027",
+         "name":"Gibson Les Paul Studio Smokehouse Burst",
+         "description":"Weight relief chambers make this model much easier on the shoulder. The neck profile of a guitar is greatly important to how it feels when playing. The Slim Taper shape on this model offers comfort for the player and gives access to the higher frets allowing you to reach all the way to the top of the fretboard.",
+         "price":1349.00,
+         "category":6,
          "rating":5.0,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0610201317080834M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0610201317080834M.jpg"
+         "image":"gibson_smokehouse.jpg"
       }
    },
    {
       "pk":28,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003570628",
-         "name":"Hanes 3pk. Cotton Crewneck TShirts  Big & Tall",
-         "description":"This midweight t-shirt from Hanes features ultra-soft cotton for superior comfort you'll reach for everyday.  all-day comfortable fit longer stay-tucked length tagless midweight ComfortSoft cotton fabric cotton washable imported",
-         "price":53.99,
-         "category":4,
-         "rating":4.3,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/0900631B818ABCB9M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"0900631B818ABCB9M.jpg"
+         "sku":"pp5028",
+         "name":"Dingwall NG3 5 String Purple Maple",
+         "description":"The multi scale construction ensures maximum tonal and tuning accuracy right across the fretboard, while the powerful electronics and stunning build make it a dream to play for any style. Lightweight body and a perfect weight-balance.",
+         "price":1949.00,
+         "category":3,
+         "rating":4.1,
+         "image":"dingwall_maple.jpg"
       }
    },
    {
       "pk":29,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003620308",
-         "name":"Chenille Lines Bath Rug Collection",
-         "description":"Keep your feet happy with our soft tufted bath rugs. They're available in a variety of complementary colors to suit your style.  ultra-soft 1\" pile microfiber polyester durable, tufted design resists matting nonskid latex backing Each rug sold separately. Polyester. Washable. Imported. Available in sizes 17x24\", 21x34\", or 27x45\"",
-         "price":31.99,
-         "category":2,
-         "rating":4.6,
-         "image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0422201517022488M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-         "image":"DP0422201517022488M.jpg"
+         "sku":"pp5029",
+         "name":"Ibanez Talman TCY12E-OPN Open Pore",
+         "description":"An eye catching body shape, the Ibanez Talman is one for the guitarist who is looking for something a little different! Talmans are great for those in need of a compact, portable acoustic that plays as easily as an electric guitar.",
+         "price":199.00,
+         "category":7,
+         "rating":4.9,
+         "image":"ibanez_talman.jpg"
       }
    },
    {
       "pk":30,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003690115",
-         "name":"Home Expressions Jacobean Stripe Oblong Decorative Pillow",
-         "description":"Our Jacobean Stripe oblong pillow adds classic style and elegance to your room.  soothing shades of green, blue, coral and ivory  pieced fabric with rice-stitched detail a perfect complement to the Jacobean Stripe quilt, sold separately measures 18x12\"  Cotton with polyester fill. Spot clean. Imported.",
-         "price":72.99,
-         "category":2,
-         "rating":5.0,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0113201417050002M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP0113201417050002M.jpg"
+         "sku":"pp5030",
+         "name":"Dingwall NG 3 5 String Laguna Seca Blue",
+         "description":"Dingwall's NG-3 bass is designed in conjunction with producer, low end master and former Periphery bassist Adam 'Nolly' Getgood. The NG-3 takes the existing Combustion model and adds a few choice features like a carbon-fibre print pickguard.",
+         "price":2199.00,
+         "category":3,
+         "rating":4.3,
+         "image":"dingwall_laguna.jpg"
       }
    },
    {
       "pk":31,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003690116",
-         "name":"Armitron Now Womens Crystal-Accent White Leather Strap Watch",
-         "description":"Genuine leather and sparkling CRYSTALLIZED - Swarovski Elements set this watch apart as a high-quality luxury, perfect for women looking for the finer things in life.  Brand: Armitron Dial Color: White Strap: White leather Accents: 10 CRYSTALLIZED - Swarovski Elements Clasp: Buckle Movement: Quartz Case Width: 22mm Case Thickness: 9mm Bracelet Dimensions: 8 long, 23mm wide Model No.: 75/5089WTGPWT Special Features: white dial, white leather strap, 10 CRYSTALLIZED - Swarovski Elements markers, sweeping second hand Jewelry photos are enlarged to show detail.",
-         "price":69.99,
-         "category":3,
-         "rating":4.0,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP0213201417022274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP0213201417022274M.jpg"
+         "sku":"pp5031",
+         "name":"Ibanez V50NJP Acoustic Jampack Vintage",
+         "description":"Whether you're a beginner or the parent of a beginner, Jam Packs gives you the bundle that will get the newbie rockin,' all rolled into one pack–guitar. Dreadnought guitar with a clip-on electronic tuner.",
+         "price":160.00,
+         "category":7,
+         "rating":4.9,
+         "image":"ibanez_vintage.jpg"
       }
    },
    {
       "pk":32,
       "model":"products.product",
       "fields":{
-         "sku":"pp5003780391",
-         "name":"Nike NA Swoosh Dri-FIT Cotton Tee",
-         "description":"Get a tee that fits your active lifestyle, like this moisture-wicking, cotton-rich crewneck with crosshatch swoosh design.  Dri-FIT Cotton moisture management technology helps keep you cool and dry crewneck cotton/polyester washable imported",
-         "price":35.99,
-         "category":9,
+         "sku":"pp5032",
+         "name":"Gibson Les Paul Satin Tobacco Burst",
+         "description":"Sounding pretty hot, the 490R and 490T pickups are often found on Les Paul Customs. They sound large, powerful and full of energy! You have the option to use the push/pull coil taps found in the volume knobs to achieve more of a P-90 sound.",
+         "price":1099.00,
+         "category":6,
          "rating":4.8,
-         "image_url":"http://s7d2.scene7.com/is/image/JCPenney/DP1028201517024563M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-         "image":"DP1028201517024563M.jpg"
+         "image":"gibson_tobacco.jpg"
       }
    }
 ]
