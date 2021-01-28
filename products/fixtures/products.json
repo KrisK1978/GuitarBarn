@@ -9,7 +9,7 @@
          "price":750,
          "category":4,
          "rating":4.8,
-         "image":"epiphone_cherry.jpg"
+         "image":"images/epiphone_cherry.jpg"
       }
    },
    {
@@ -22,7 +22,7 @@
          "price":979.00,
          "category":2,
          "rating":4.6,
-         "image":"cort_artisan.jpg"
+         "image":"images/cort_artisan.jpg"
       }
    },
    {
@@ -35,7 +35,7 @@
          "price":1349.00,
          "category":1,
          "rating":4.3,
-         "image":"dingwall_pau.jpg"
+         "image":"images/dingwall_pau.jpg"
       }
    },
    {
@@ -48,7 +48,7 @@
          "price":569.00,
          "category":5,
          "rating":4.9,
-         "image":"fender_blonde.jpg"
+         "image":"images/fender_blonde.jpg"
       }
    },
    {
@@ -61,7 +61,7 @@
          "price":1429.00,
          "category":8,
          "rating":4.3,
-         "image":"dingwall_ferro.jpg"
+         "image":"images/dingwall_ferro.jpg"
       }
    },
    {
@@ -74,7 +74,7 @@
          "price":299.00,
          "category":2,
          "rating":4.9,
-         "image":"cort_deluxe.jpg"
+         "image":"images/cort_deluxe.jpg"
       }
    },
    {
@@ -87,7 +87,7 @@
          "price":699.00,
          "category":1,
          "rating":4.9,
-         "image":"epiphone_aged.jpg"
+         "image":"images/epiphone_aged.jpg"
       }
    },
    {
@@ -100,7 +100,7 @@
          "price":329.00,
          "category":4,
          "rating":5.0,
-         "image":"epiphone_dove.jpg"
+         "image":"images/epiphone_dove.jpg"
       }
    },
    {
@@ -113,7 +113,7 @@
          "price":1599.00,
          "category":5,
          "rating": 4.2,
-         "image":"fender_mercury.jpg"
+         "image":"images/fender_mercury.jpg"
       }
    },
    {
@@ -126,7 +126,7 @@
          "price":179.00,
          "category":2,
          "rating":3.9,
-         "image":"cort_junior.jpg"
+         "image":"images/cort_junior.jpg"
       }
    },
    {
@@ -139,7 +139,7 @@
          "price":1309.00,
          "category":1,
          "rating":4.9,
-         "image":"fender_jp.jpg"
+         "image":"images/fender_jp.jpg"
       }
    },
    {
@@ -152,7 +152,7 @@
          "price":599.00,
          "category":8,
          "rating":4.9,
-         "image":"fender_buttercream.jpg"
+         "image":"images/fender_buttercream.jpg"
       }
    },
    {
@@ -165,7 +165,7 @@
          "price":569.00,
          "category":5,
          "rating":4.7,
-         "image":"fender_sunburst.jpg"
+         "image":"images/fender_sunburst.jpg"
       }
    },
    {
@@ -191,7 +191,7 @@
          "price":1649.00,
          "category":1,
          "rating":4.6,
-         "image":"gibson_blueberry.jpg"
+         "image":"images/gibson_blueberry.jpg"
       }
    },
    {
@@ -204,7 +204,7 @@
          "price":439.00,
          "category":4,
          "rating":4.3,
-         "image":"epiphone_fishman.jpg"
+         "image":"images/epiphone_fishman.jpg"
       }
    },
    {
@@ -217,7 +217,7 @@
          "price":599.00,
          "category":5,
          "rating":4.4,
-         "image":"fender_tidepool.jpg"
+         "image":"images/fender_tidepool.jpg"
       }
    },
    {
@@ -230,7 +230,7 @@
          "price":1799.00,
          "category":8,
          "rating":5.0,
-         "image":"gibson_vibrola.jpg"
+         "image":"images/gibson_vibrola.jpg"
       }
    },
    {
@@ -243,7 +243,7 @@
          "price":299.00,
          "category":7,
          "rating":4.4,
-         "image":"ibanez_aeg.jpg"
+         "image":"images/ibanez_aeg.jpg"
       }
    },
    {
@@ -256,7 +256,7 @@
          "price":2199.00,
          "category":6,
          "rating":5.0,
-         "image":"gibson_cherry.jpg"
+         "image":"images/gibson_cherry.jpg"
       }
    },
    {
@@ -269,7 +269,7 @@
          "price":2399.00,
          "category":3,
          "rating":4.9,
-         "image":"dingwall_aquamarine.jpg"
+         "image":"images/dingwall_aquamarine.jpg"
       }
    },
    {
@@ -282,7 +282,7 @@
          "price":1799.00,
          "category":6,
          "rating":5.0,
-         "image":"gibson_ebony.jpg"
+         "image":"images/gibson_ebony.jpg"
       }
    },
    {
@@ -295,7 +295,7 @@
          "price":319.00,
          "category":8,
          "rating":4.3,
-         "image":"ibanez_trans.jpg"
+         "image":"images/ibanez_trans.jpg"
       }
    },
    {
@@ -308,7 +308,7 @@
          "price":279.00,
          "category":4,
          "rating":4.7,
-         "image":"epiphone_vintage.jpg"
+         "image":"images/epiphone_vintage.jpg"
       }
    },
    {
@@ -321,7 +321,7 @@
          "price":269.00,
          "category":7,
          "rating":5.0,
-         "image":"ibanez_indigo.jpg"
+         "image":"images/ibanez_indigo.jpg"
       }
    },
    {
@@ -334,7 +334,7 @@
          "price":1999.00,
          "category":3,
          "rating":5.0,
-         "image":"dingwall_gold.jpg"
+         "image":"images/dingwall_gold.jpg"
       }
    },
    {
@@ -347,7 +347,7 @@
          "price":1349.00,
          "category":6,
          "rating":5.0,
-         "image":"gibson_smokehouse.jpg"
+         "image":"images/gibson_smokehouse.jpg"
       }
    },
    {
@@ -360,7 +360,7 @@
          "price":1949.00,
          "category":3,
          "rating":4.1,
-         "image":"dingwall_maple.jpg"
+         "image":"images/dingwall_maple.jpg"
       }
    },
    {
@@ -373,7 +373,7 @@
          "price":199.00,
          "category":7,
          "rating":4.9,
-         "image":"ibanez_talman.jpg"
+         "image":"images/ibanez_talman.jpg"
       }
    },
    {
@@ -386,7 +386,7 @@
          "price":2199.00,
          "category":3,
          "rating":4.3,
-         "image":"dingwall_laguna.jpg"
+         "image":"images/dingwall_laguna.jpg"
       }
    },
    {
@@ -399,7 +399,7 @@
          "price":160.00,
          "category":7,
          "rating":4.9,
-         "image":"ibanez_vintage.jpg"
+         "image":"images/ibanez_vintage.jpg"
       }
    },
    {
@@ -412,7 +412,7 @@
          "price":1099.00,
          "category":6,
          "rating":4.8,
-         "image":"gibson_tobacco.jpg"
+         "image":"images/gibson_tobacco.jpg"
       }
    }
 ]
