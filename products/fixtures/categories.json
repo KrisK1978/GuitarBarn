@@ -35,7 +35,7 @@
       "pk":5,
       "model":"products.category",
       "fields":{
-         "name":"Fender",
+         "name":"fender",
          "friendly_name":"Fender"
       }
    },

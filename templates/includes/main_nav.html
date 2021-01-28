@@ -23,7 +23,7 @@
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?category=ibanez" class="dropdown-item">Ibanez</a>
                 <a href="{% url 'products' %}?category=epiphone" class="dropdown-item ">Epiphone</a>
-                <a href="{% url 'products' %}?category=ibanez, epiphone" class="dropdown-item">All Guitars</a>
+                <a href="{% url 'products' %}?category=ibanez,epiphone" class="dropdown-item">All Guitars</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -35,7 +35,7 @@
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?category=gibson" class="dropdown-item">Gibson</a>
                 <a href="{% url 'products' %}?category=fender" class="dropdown-item ">Fender</a>
-                <a href="{% url 'products' %}?category=gibson, fender" class="dropdown-item">All Guitars</a>
+                <a href="{% url 'products' %}?category=gibson,fender" class="dropdown-item">All Guitars</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -45,9 +45,9 @@
             </a>
             <!-- Bass guitars -->
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">Cort</a>
-                <a href="" class="dropdown-item ">Dingwall</a>
-                <a href="" class="dropdown-item">All Guitars</a>
+                <a href="{% url 'products' %}?category=cort" class="dropdown-item">Cort</a>
+                <a href="{% url 'products' %}?category=dingwall" class="dropdown-item ">Dingwall</a>
+                <a href="{% url 'products' %}?category=cort,dingwall" class="dropdown-item">All Guitars</a>
             </div>
         </li>
         <li class="nav-item dropdown">
