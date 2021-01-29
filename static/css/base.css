@@ -17,7 +17,7 @@ body {
     font-size: 1.7rem;
 }
 
-/* Style imported from Bulma to maintain consistency */
+/* Custom CSS and BULMA style applie for consistency */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -25,7 +25,6 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
-
 
 .logo-font {
     font-family: 'Special Elite', cursive;
@@ -48,8 +47,8 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: grey;
-    color: white;
+    background: lightgray;
+    color: black;
 }
 
 .text-black {
@@ -70,12 +69,25 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: lightgray;
+	background: white;
 	z-index: -1;
 }
 
 .dropdown-item {
     font-size: 1.5rem;
+}
+
+a.category-badge > span.badge:hover {
+    background: lightgray !important;
+    color: black !important;
+}
+
+a.number-of-products {
+    color: black;
+}
+
+.lead {
+    font-size: 1.7rem;
 }
 
 /* Media  queries */
