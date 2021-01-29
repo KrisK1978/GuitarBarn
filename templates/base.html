@@ -108,7 +108,7 @@
         <!-- Product delivery banner -->
         <div id="product-delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <h3 class="logo-font my-3">No delivery charge on orders over £{{ free_shipping_threshold }}!</h3>
+                <h3 class="logo-font my-3">No delivery charge on orders over £{{ free_delivery_threshold }}!</h3>
             </div>
         </div>
     </header>
@@ -122,8 +122,10 @@
 
     {% block content %}
     {% endblock %}
+    
      <!-- Scripts -->
     {% block corejs %}
+
     <script src="https://kit.fontawesome.com/51d9c28251.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -131,6 +133,11 @@
             integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" 
             integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="{% static 'js/main.js' %}"></script>
     {% endblock %}
+
+    {% block extra_js %}
+    {% endblock %}
+
   </body>
 </html>
