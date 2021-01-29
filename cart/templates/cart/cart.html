@@ -10,5 +10,30 @@
 {% endblock %}
 
 {% block content %}
-   
+   <!-- Shopping cart -->
+   <div class="overlay"></div>
+   <div class="container mb-2">
+       <div class="row">
+           <div class="col mt-5 text-center">
+                <h2 class="page-heading mt-2">Shopping Cart</h2>
+            <hr class="w-100 mb-1">
+           </div>
+       </div>
+       <!-- Products added to the cart -->
+       <div class="row">
+           <div class="col">
+                {% if cart_items %}
+                    <div class="table-responsive rounded"></div>
+                {% else %}
+                    <p class="cart-message mt-5 text-center">Sorry, but your shopping cart is empty!</p>
+                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg center-align">
+                        <span class="icon">
+                            <i class="fas fa-chevron-circle-left fa-lg"></i>
+                        </span>
+                        <span class="product-redirect-text text-uppercase">Add Your Product!</span>
+                    </a>
+                {% endif %}
+           </div>
+       </div>
+   </div>
 {% endblock %}
