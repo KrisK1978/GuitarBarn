@@ -1,3 +1,4 @@
+""" URLs Patterns for Home app """
 from django.urls import path
 from . import views
 
