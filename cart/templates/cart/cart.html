@@ -24,9 +24,75 @@
            <div class="col">
                 {% if cart_items %}
                     <div class="table-responsive rounded">
-                        {{ cart_items }}
+                        <table class="table table-sm table-borderless">
+                            <!-- Shopping cart details -->
+                            <thead class="text-black">
+                                <tr>
+                                    <th scope="col">Product Information:</th>
+                                    <th scope="col">Guitar Name</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Qty</th>
+                                    <th scope="col">Subtotal</th>
+                                </tr>
+                                <div class="divider"></div>
+                            </thead>
+                            
+                            <!-- Product purchase details -->
+                            {% for item in cart_items %}
+                                <tr>
+                                    <td class="p-3 w-25">
+                                        <img src="{{ item.product.image.url }}" alt="product-image" class="img-fluid rounded">
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                                        <p class="my-0 small text-muted">SKU:   {{ item.product.sku|upper }}</p>
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0">£{{ item.product.price }}</p>
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0">{{ item.quantity }}</p>
+                                    </td>
+                                    <td class="py-3 w-25">
+                                        <p class="my-0">£{{ item.product.price }}</p>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            <!-- Total purchase amount/Free delivery info -->
+                             <tr>
+                                <td colspan="5" class="pt-5 text-right">
+                                    <h4><strong>Total: £{{ total|floatformat:2 }}</strong></h4>
+                                    <h5>Delivery Cost: {{ delivery|floatformat:2 }}</h5>
+                                    <h3 class="mt-4"><strong>Grand Total: £{{ grand_total|floatformat:2 }}</strong></h3>
+                                    {% if free_delivery_delta > 0 %}
+                                        <p class="mb-1 text-danger">
+                                            Hey, you could get a free delivery if only spend an extra 
+                                            <strong>£{{ free_delivery_delta }}</strong>more!
+                                        </p>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <!-- Continue shopping and secure checkout button -->
+                                <td colspan="5" class="text-right">
+                                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                                        <span class="icon">
+                                            <i class="fas fa-chevron-circle-left fa-lg"></i>
+                                        </span>
+                                        <span class="text-uppercase">Keep Shopping</span>
+                                    </a>
+                                    <a href="" class="btn btn-outline-black rounded-0 btn-lg">
+                                        <span class="text-uppercase">Use Secure Checkout</span>
+                                        <span class="icon">
+                                           <i class="far fa-credit-card fa-lg"></i>
+                                        </span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 {% else %}
+                    <!-- -->
                     <p class="cart-message mt-5 text-center">Sorry, but your shopping cart is empty!</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
