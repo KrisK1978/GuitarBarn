@@ -17,7 +17,7 @@ body {
     font-size: 1.7rem;
 }
 
-/* Custom CSS and BULMA style applie for consistency */
+/* Custom CSS and BULMA style applied for consistency */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -28,11 +28,11 @@ body {
 
 .logo-font {
     font-family: 'Special Elite', cursive;
+    text-transform: uppercase;
 }
 
-.page-heading {
-    font-family: 'Special Elite', cursive;
-    font-size: 2.6rem;
+.dropdown-item {
+    font-size: 1.5rem;
 }
 
 .shop-now-button {
@@ -47,10 +47,9 @@ body {
 }
 
 .btn-outline-black {
-    font-family: 'Special Elite', cursive;
     background: white;
-    color: black !important;
-    border: 0.2rem solid black;
+    color: black !important; 
+    border: 1px solid black;
 }
 
 .btn-outline-black:hover,
@@ -66,8 +65,29 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: white;
+    background: #222;
+    color: white;
+}
+
+a.number-of-products {
     color: black;
+}
+
+.lead {
+    font-size: 1.5rem;
+}
+
+.cart-message {
+    font-size: 2.3rem;
+}
+
+span.product-redirect-text {
+    font-family: 'Special Elite', cursive;
+}
+
+.page-heading {
+    font-family: 'Special Elite', cursive;
+    font-size: 2.6rem;
 }
 
 .text-black {
@@ -92,29 +112,9 @@ body {
 	z-index: -1;
 }
 
-.dropdown-item {
-    font-size: 1.5rem;
-}
-
 a.category-badge > span.badge:hover {
-    background: lightgray !important;
-    color: black !important;
-}
-
-a.number-of-products {
-    color: black;
-}
-
-.lead {
-    font-size: 1.5rem;
-}
-
-.cart-message {
-    font-size: 2.3rem;
-}
-
-span.product-redirect-text {
-    font-family: 'Special Elite', cursive;
+    background: #212529 !important;
+    color: #fff !important;
 }
 
 /* Media  queries */
