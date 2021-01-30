@@ -116,6 +116,11 @@ a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
+.btt-link, 
+.update-link,
+.delete-linl {
+    cursor: pointer;
+}
 
 /* Media  queries */
 @media (max-width: 991px) {
