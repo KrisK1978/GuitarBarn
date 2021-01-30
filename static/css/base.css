@@ -130,9 +130,6 @@ a.category-badge > span.badge:hover {
     z-index: 99999999999;
 }
 
-.custom-toast,
-.custom-oast,
-.custom-toast,
 .custom-toast {
     overflow: visible;
 } 
