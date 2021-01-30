@@ -116,10 +116,42 @@ a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
+
 .btt-link, 
 .update-link,
 .remove-item {
     cursor: pointer;
+}
+
+.message-container {
+    position: fixed;
+    top: 7.5rem;
+    left: 1rem;
+    z-index: 99999999999;
+}
+
+.custom-toast,
+.custom-oast,
+.custom-toast,
+.custom-toast {
+    overflow: visible;
+} 
+
+.toast-capper {
+    height: .06rem;
+}
+
+strong.pop-up {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+}
+
+span.close-toast {
+    font-size: 1.5rem;
+}
+
+.close-body {
+    font-size: 1rem;
 }
 
 /* Media  queries */

@@ -28,6 +28,7 @@
   </head>
   <body>
     <!-- Header -->
+    <!-- Header -->
      <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <!-- User account with dropdown menu-->
@@ -112,9 +113,13 @@
             </div>
         </div>
     </header>
-
+    <!-- Messages -->
     {% if messages %}
-        <div class="message-container"></div>
+        <div class="message-container">
+            {% for message in messages %}
+                {% include 'includes/toasts/toast_success.html' %}
+            {% endfor %}
+        </div>
     {% endif %}
     
     {% block page_header %}
@@ -136,6 +141,10 @@
     {% endblock %}
 
     {% block postloadjs %}
+    <!-- Calls the show option on all toasts -->
+        <script type="text/javascript">
+            $('.toast').toast('show');
+        </script>
     {% endblock %}
 
   </body>

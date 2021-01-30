@@ -1,4 +1,4 @@
-<!-- Button to open search bar -->
+<!-- Search bar -->
 <li class="list-inline-item">
     <a id="mobile-search" href="#" class="text-black nav-link d-block d-lg-none" data-toggle="dropdown"
         aria-haspopup="true" aria-expanded="false">
@@ -23,7 +23,7 @@
         </form>
     </div>
 </li>
-<!-- Button to open my account and dropdown menu -->
+<!-- Access to my account's dropdown menu -->
 <li class="list-inline-item dropdown">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" 
         aria-expanded="false">
@@ -45,7 +45,7 @@
     {% endif %}
     </div>
 </li>
-<!-- Button to access a shopping bag-->
+<!-- Access to shopping cart-->
 <li class="list-inline-item">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" 
         href="{% url 'view_cart' %}">
