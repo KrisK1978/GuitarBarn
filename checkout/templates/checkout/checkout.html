@@ -12,7 +12,6 @@
 {% endblock %}
 
 {% block content %}
-   <!-- Checkout form -->
    <div class="overlay"></div>
    <div class="container">
        <div class="row">
@@ -22,10 +21,86 @@
            </div>
        </div>
     </div>
-
+    <!-- Order summary -->
     <div class="row">
+        <div class="col-12 col-lg-6 order-lg-last mb-5">
+            <div class="row">
+                <div class="col-7 offset-2">
+                    <p class="mb-1 mt-0 small text-muted">
+                        Item
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="col-12 col-lg-6">
-            <p class="text-muted">Please complete the form below to finish your order!</p>
+            <div class="col-3 text-right">
+                <p class="mb-1 mt-0 small text-muted">
+                    Subtotal
+                </p>
+            </div>
+        </div>
+        <!-- Checkout form -->
+            <div class="col-12 col-lg-6">
+                <p class="text-muted">Please complete the form below to finish your order!</p>
+                <form action="{% url 'checkout' %}" method="POST" id="payment-form">
+                    {% csrf_token %}
+                    <fieldset class="rounded px-3 mb-5">
+                        <legend class="fieldset-label small text-black px-2 w-auto">Details</legend>
+                        {{ order_form.full_name | as_crispy_field }}
+                        {{ order_form.email | as_crispy_field }}
+                    </fieldset>
+                    <fieldset class="rounded px-3 mb-5">
+                        <legend class="fieldset-label small text-black px-2 w-auto">Delivery</legend>
+                        {{ order_form.phone_number | as_crispy_field }}
+                        {{ order_form.country | as_crispy_field }}
+                        {{ order_form.postcode | as_crispy_field }}
+                        {{ order_form.town_or_city | as_crispy_field }}
+                        {{ order_form.street_address1 | as_crispy_field }}
+                        {{ order_form.street_address2 | as_crispy_field }}
+                        {{ order_form.county | as_crispy_field }}
+                        <!-- Save delivery info if user authenticated -->
+                        <div class="form-check form-check-inline float-right mr-0">
+                            {% if user.is_authenticated %}
+                                <label for="id-save-info" class="form-check-label">
+                                    Save the delivery information to my personal profile</label>
+                                <input id="id-save-info" type="check-box" class="form-check-input ml-2 mr-0" name="save-info" checked>
+                            {% else %}
+                                    <!-- Links redirecting to Sign Up and Log In -->
+                                <label for="id-save-info" class="form-check-label">
+                                    <a href="{% url 'account_signup %}" class="text-info">Create Your Account</a> or
+                                    <a href="{% url 'account_login %}" class="text-info">login</a> to save this info
+                                </label>
+                            {% endif %}
+                        </div>
+                    </fieldset>
+                    <fieldset class="px-3">
+                        <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
+                            <div class="mb-3" id="card-element"></div>
+                            <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
+                    </fieldset>
+                    <!-- User can go back to shopping cart to adjust the content -->
+                    <div class="submit-button text-right mt-5 mb-2">                    
+                    <a href="{% url 'view_bag' %}" class="btn btn-outline-black rounded-0">
+                        <span class="icon">
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                    </a>
+                    <!-- Order submit button -->
+                    <button id="submit-button" class="btn btn-black rounded-0">
+                        <span class="font-weight-bold">Complete Your Order</span>
+                        <span class="icon">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                    </button>
+                    <!-- Notification alerting the user their card will be charged  -->
+                    <p class="small text-danger my-0">
+                        <span class="icon">
+                                <i class="fas fa-exclamation-circle"></i>
+                        </span>
+                        <span>Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong></span>
+                    </p>
+                </div>
+            </form>
         </div>
     </div>
 {% endblock %}
