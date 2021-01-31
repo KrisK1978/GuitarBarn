@@ -66,7 +66,13 @@ The wireframes can be found [here]().
 
 ### Features
 
+
+
 #### Features to be implemented in the future
+
+- allowing the user to reset the password
+- other paymemts methods 
+- applying discounts 
 
 [Back to top](#table-of-contents)
 
@@ -152,8 +158,18 @@ The wireframes can be found [here]().
 
 ### Project database structure
 
-Used the following sources to build a database which would hold the product 
-categories, added products, users
+Used the following sources to build a database which would hold the product:
+
+- **categories.json**
+    - "pk":,
+    - "model":
+    - "fields":{
+         "name":,
+         "friendly_name:",}
+
+- **products-json**
+    - consists all details about the displayed products (product number,
+        name, image, price, rating )
 
 [Back to top](#table-of-contents)
 
