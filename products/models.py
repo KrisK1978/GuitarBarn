@@ -1,3 +1,4 @@
+""" Models for Products app """
 from django.db import models
 
 
