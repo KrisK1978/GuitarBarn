@@ -4,7 +4,6 @@ from django.apps import AppConfig
 
 class CheckoutConfig(AppConfig):
     name = 'checkout'
-
     """
     This imports signals module
     """
