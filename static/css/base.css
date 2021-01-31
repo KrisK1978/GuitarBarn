@@ -26,7 +26,8 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
+.logo-font,
+.form-check-label  {
     font-family: 'Special Elite', cursive;
     text-transform: uppercase;
 }
@@ -149,6 +150,13 @@ span.close-toast {
 
 .toast-body {
     font-size: 1rem;
+}
+
+.form-control {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
 }
 
 /* Imported from  CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
