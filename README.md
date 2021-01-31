@@ -66,6 +66,33 @@ The wireframes can be found [here]().
 
 ### Features
 
+Each page has the following items available:
+
+- Links located in navbar (user account, search bar, shopping-cart, guitars available for sale)
+
+    - Products 
+        - available guitars for sale (user can access all guitars or
+            check specific categories such as acoustic, electric and bass)
+        
+        - user can check the available products by sorting guitars using:
+            - price
+            - rating 
+            - catgory
+
+    - Cart 
+        - shopping cart (user can add/remove the products)
+        - user can go back to shopping if decides to add more items (Continue Shopping button)
+        - redirect button to Secure Paymemt Checkout 
+    
+    - Checkout 
+    
+
+- active Logo which redirects the user to homepage from other pages 
+
+- guitar-related background image (home page only)
+
+- 
+
 
 
 #### Features to be implemented in the future
