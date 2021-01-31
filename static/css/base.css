@@ -103,6 +103,11 @@ span.product-redirect-text {
     background: #000 !important;
 }
 
+.card-img-top {
+    flex-shrink: 0;
+    width: auto;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;
