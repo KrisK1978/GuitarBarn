@@ -1,4 +1,4 @@
-
+<img src="static/logo/responsive.png" alt="responsive">
 
 ## Table of Contents
 
@@ -48,11 +48,32 @@
 
 ### User Goals
 
+- I want a responsive website which works efficiently and effectively on a wide range of devices 
+- I want a website which is both easy to navigate and user-friendly
+- I want the website where I can use the proposed functionality with no obstacles
+
 ### User Stories 
+
+- As a User, I want to view a specific category of products
+
+- As a User, I want to search a product by name, price, rating or other category
+
+- As a User, I want to easily see what I have searched for and to see number of results
+
+- As a User, I want to add products I want to buy
+
+- As a User, I want to be able to update the added products and be allowed to change the quantity
+    or remove the products completely from the shopping cart
+
+- As a User, I want to complete my purchase using a secure payment method
+
+- As a User, I want to be able to get in touch with the website host
 
 [Back to top](#table-of-contents)
 
 ### Designer Strategy
+
+
 
 ### Design Elements
 
@@ -80,18 +101,23 @@ Each page has the following items available:
             - catgory
 
     - Cart 
+        - if empty, user can click on Add Your Product button which redirects to Products page
         - shopping cart (user can add/remove the products)
         - user can go back to shopping if decides to add more items (Continue Shopping button)
         - redirect button to Secure Paymemt Checkout 
     
     - Checkout 
+        - displays all purchased products (name, quantity, image, subtotal, delivery charge and final total amount)
+        - allowing the user to complete th purchase using secure payment method, but only if the checkout form is
+            completed
+        - credit card payment stripe for making a payment (warning displays if invalid card is used)
     
 
 - active Logo which redirects the user to homepage from other pages 
 
 - guitar-related background image (home page only)
 
-- 
+- banner with NO DELIVERY CHARGE ON ORDERS OVER #300
 
 
 
